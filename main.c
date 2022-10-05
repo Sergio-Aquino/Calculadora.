@@ -3,7 +3,9 @@
 
 int mmc(int num5, int num6){
 
-    int resto, a, b;
+    int resto = 0; 
+    int a = 0; 
+    int b = 0;
 
     a = num5;
     b = num6;
@@ -22,7 +24,7 @@ int mmc(int num5, int num6){
 
 int mdc(int num5, int num6) {
 
-    int resto;
+    int resto = 0;
 
     do{
         resto = num5 % num6;
@@ -61,7 +63,7 @@ int main(){
       if(opc == 0){
           break;
         
-      }else if(opc > 9){
+      }else if(opc > 9 || opc < 0){
           printf("\nOpção inválida.\n");
         
       }else{ 
