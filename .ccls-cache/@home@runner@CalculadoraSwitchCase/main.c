@@ -3,7 +3,9 @@
 
 int mmc(int num5, int num6){
 
-    int resto, a, b;
+    int resto = 0; 
+    int a = 0; 
+    int b = 0;
 
     a = num5;
     b = num6;
@@ -19,10 +21,9 @@ int mmc(int num5, int num6){
     return(num5 * num6) / a;
 }
 
-
 int mdc(int num5, int num6) {
 
-    int resto;
+    int resto = 0;
 
     do{
         resto = num5 % num6;
