@@ -21,7 +21,7 @@ int main(){
  	float res = 0;
  	
  	
- 	do{
+ 	do {
       printf("\n0- Sair\n");
  		  printf("1- Soma\n");
  		  printf("2- Subtração\n");
@@ -86,7 +86,7 @@ int main(){
           }
         }
     
-    }while(opc != 0);
+    } while(opc != 0);
 
     printf("\nPrograma encerrado com sucesso!"); 	
   
@@ -175,13 +175,13 @@ void mmc(float num3, float num4){
     int a = num3; 
     int b = num4;
 
-    do{
+    do {
         resto = a % b;
 
         a = b;
         b = resto;
 
-    }while(resto != 0);
+    } while(resto != 0);
 
     printf("\nO MMC de %.f e %.f = %d\n", num3, num4, (a * b) / a);
 }
@@ -193,13 +193,13 @@ void mdc(float num3, float num4){
     int a = num3;
     int b = num4;
 
-    do{
+    do {
         resto = a % b;
 
         a = b;
         b = resto;
 
-    }while(resto != 0);
+    } while(resto != 0);
 
     printf("\nO MDC de %.f e %.f = %d\n", num3, num4, a);
 }
