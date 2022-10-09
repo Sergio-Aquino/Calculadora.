@@ -183,7 +183,7 @@ void mmc(float num3, float num4){
 
     } while(resto != 0);
 
-    printf("\nO MMC de %.f e %.f = %d\n", num3, num4, (a * b) / a);
+    printf("\nO MMC de %.f e %.f = %.f\n", num3, num4, (num3 * num4) / a);
 }
 
 
